@@ -12,11 +12,10 @@
 {"file_name": "i/tool.png", "url": "https://xhiroga.github.io/bs/as/i/tool.png"}
 {"file_name": "i/view_layer.png", "url": "https://xhiroga.github.io/bs/as/i/view_layer.png"}
 {"file_name": "i/world.png", "url": "https://xhiroga.github.io/bs/as/i/world.png"}
-{"file_name": "s/add-mesh-adjacent-to-another.gif", "url": "https://xhiroga.github.io/bs/as/s/add-mesh-adjacent-to-another.gif"}
-{"file_name": "s/add-mesh.gif", "url": "https://xhiroga.github.io/bs/as/s/add-mesh.gif"}
-{"file_name": "s/bevel-edges.gif", "url": "https://xhiroga.github.io/bs/as/s/bevel-edges.gif"}
-{"file_name": "s/delete-mesh.gif", "url": "https://xhiroga.github.io/bs/as/s/delete-mesh.gif"}
-{"file_name": "s/extrude-manifold.gif", "url": "https://xhiroga.github.io/bs/as/s/extrude-manifold.gif"}
-{"file_name": "s/move-mesh.gif", "url": "https://xhiroga.github.io/bs/as/s/move-mesh.gif"}
-{"file_name": "s/select-editor-type.gif", "url": "https://xhiroga.github.io/bs/as/s/select-editor-type.gif"}
-{"file_name": "s/timeline.png", "url": "https://xhiroga.github.io/bs/as/s/timeline.png"}
+{"file_name": "s/add-mesh-adjacent-to-another.gif", "url": "https://xhiroga.github.io/bs/as/s/add-mesh-adjacent-to-another.gif", "qa": [{"lang": "ja", "q": "メッシュを既存のメッシュに隣接させて追加させる方法を教えてください", "a": "オブジェクトモードで ツールバー > 立方体を追加 を選択すると、インタラクティブにオブジェクトの底面を選択してから追加できます。"}]}
+{"file_name": "s/add-mesh.gif", "url": "https://xhiroga.github.io/bs/as/s/add-mesh.gif", "qa": [{"lang": "ja", "q": "メッシュを追加する方法を教えてください。", "a": "オブジェクトモードで ツールバー > 立方体を追加 または Shift+A で追加メニューを開くことができます。"}]}
+{"file_name": "s/bevel-edges.gif", "url": "https://xhiroga.github.io/bs/as/s/bevel-edges.gif", "qa": [{"lang": "ja", "q": "メッシュの角を取る方法を教えてください。", "a": "辺をベベル（斜面）にします。編集モードのヘッダー > 辺 > 辺をベベル または辺を選択して Ctrl+B でベベルがかかります。"}]}
+{"file_name": "s/delete-mesh.gif", "url": "https://xhiroga.github.io/bs/as/s/delete-mesh.gif", "qa": [{"lang": "ja", "q": "メッシュを削除する方法を教えてください。", "a": "オブジェクトモードでメッシュを選択し、右クリック > 削除を選択します。または、メッシュを選択した状態で X を押します。"}]}
+{"file_name": "s/extrude-manifold.gif", "url": "https://xhiroga.github.io/bs/as/s/extrude-manifold.gif", "qa": [{"lang": "ja", "q": "メッシュを押し出す方法を教えてください。", "a": "編集モードで面を選択し、 右クリック > 面を押し出し または E を押します。"}]}
+{"file_name": "s/move-mesh-by-gizmo.gif", "url": "https://xhiroga.github.io/bs/as/s/move-mesh-by-gizmo.gif", "qa": [{"lang": "ja", "q": "メッシュを矢印で移動する方法を教えてください。", "a": "オブジェクトモードでメッシュを選択し、ツールバー > 移動 を選択するとギズモが表示され、移動ができます。"}]}
+{"file_name": "s/select-editor-type.gif", "url": "https://xhiroga.github.io/bs/as/s/select-editor-type.gif", "qa": [{"lang": "ja", "q": "エディタの種類を変更する方法を教えてください。", "a": "ヘッダー左上のエディタータイプをクリックして変更します。"}]}
