@@ -41,3 +41,9 @@
 ヘッダー左上のエディタータイプをクリックして変更します。
 
 ![select editor type](https://xhiroga.github.io/bqa/as/s/select-editor-type.gif)
+
+## 移動に使う赤青緑の3色矢印が見つかりません
+
+Gizmoを表示します。ヘッダー右上の ギズモを表示 をクリックしてください。
+
+![show gizmo](https://xhiroga.github.io/bqa/as/s/show-gizmo.gif)

@@ -41,3 +41,9 @@ In Object Mode, select the mesh, choose Toolbar > Move to display the gizmo, the
 Click the editor type selector at the top left of the header to switch.
 
 ![select editor type](https://xhiroga.github.io/bqa/as/s/select-editor-type.gif)
+
+## I can't find the red, blue, and green arrows for moving objects.
+
+Show the gizmo. Click the 'Show Gizmo' button at the top right of the header.
+
+![show gizmo](https://xhiroga.github.io/bqa/as/s/show-gizmo.gif)
