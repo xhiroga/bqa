@@ -11,6 +11,30 @@ OUTPUTS = {
 HEADER = "# Blender Q&A\n"
 
 
+def format_version(version_dict: dict | None):
+    """Return formatted version string like " (v4.0~)" or " (v4.0-4.1)".
+
+    If version_dict is None or empty, return empty string.
+    Accepted keys:
+        min: minimum supported version (string)
+        max: maximum supported version (string)
+    """
+    if not version_dict:
+        return ""
+
+    min_v: str | None = version_dict.get("min")
+    max_v: str | None = version_dict.get("max")
+
+    if not min_v and not max_v:
+        return ""
+
+    if min_v and max_v:
+        return f" (v{min_v}-{max_v})"
+    if min_v:
+        return f" (v{min_v}~)"
+    return f" (~v{max_v})"
+
+
 def load_metadata(path: Path):
     """metadata.jsonl をパースして list[dict] を返す"""
     items: list[dict] = []
@@ -44,7 +68,9 @@ def build_readme(items: list[dict], lang: str) -> str:
         a = qa.get("a", "")
         image_url = item.get("url") or f"as/{item['file_name']}"
 
-        md_lines.append(f"## {q.rstrip('。')}\n")
+        version_info = format_version(item.get("blender_version"))
+
+        md_lines.append(f"## {q.rstrip('。')}{version_info}\n")
         md_lines.append(f"{a}\n")
         md_lines.append(f"![{Path(image_url).stem.replace('-', ' ')}]({image_url})\n")
         

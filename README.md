@@ -47,3 +47,9 @@ Click the editor type selector at the top left of the header to switch.
 Show the gizmo. Click the 'Show Gizmo' button at the top right of the header.
 
 ![show gizmo](https://xhiroga.github.io/bqa/as/s/show-gizmo.gif)
+
+## How can I display the normal direction? (v4.0~)
+
+In Edit Mode, select the mesh, then at the top right of the header choose Mesh Edit Mode > Normals to display them.
+
+![show normals v4.0~](https://xhiroga.github.io/bqa/as/s/show-normals-v4.0~.gif)

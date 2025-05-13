@@ -47,3 +47,9 @@
 Gizmoを表示します。ヘッダー右上の ギズモを表示 をクリックしてください。
 
 ![show gizmo](https://xhiroga.github.io/bqa/as/s/show-gizmo.gif)
+
+## 法線の方向を表示したいです (v4.0~)
+
+メッシュを選択して編集モードに入り、ヘッダー右上の メッシュ編集モード > ノーマル から表示できます。
+
+![show normals v4.0~](https://xhiroga.github.io/bqa/as/s/show-normals-v4.0~.gif)
